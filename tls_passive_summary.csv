@@ -1,0 +1,10 @@
+case,tls_cases,size,total,delta,day2,day3,day4
+oval_triangle,oval_triangle,1,1322208,-1611,444623,384870,492716
+oval_triangle,oval_triangle,2,1322988,-831,444353,384402,494232
+oval_triangle,oval_triangle,5,1323406,-413,444189,384562,494654
+oval_triangle,oval_triangle,10,1323406,-413,444189,384562,494654
+circle_square_tls,circle_square_tls,1,1320886,-2933,446085,381422,493380
+circle_square_tls,circle_square_tls,2,1324341,522,446355,384572,493414
+circle_square_tls,circle_square_tls,5,1325965,2146,446429,384320,495216
+circle_square_tls,circle_square_tls,10,1325965,2146,446429,384320,495216
+nylon_lamb,nylon_lamb,1,1305265,-18554,440598,375960,488707
