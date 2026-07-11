@@ -21,6 +21,8 @@ The final model built on the v8-v10 core:
 
 ## Results
 
+Official placement: global `#1699`, United States `#422`.
+
 Documented v8 baseline:
 
 | Mode | Result |
@@ -28,7 +30,7 @@ Documented v8 baseline:
 | `--match-trades none` | `252,967` |
 | `--match-trades worse` | `301,531` |
 
-Exact final v11 total is still to confirm from competition/backtest records.
+Exact final v11 PnL total is not documented in this cleaned workspace.
 
 ## Files To Inspect
 

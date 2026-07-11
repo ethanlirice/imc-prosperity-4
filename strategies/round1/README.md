@@ -20,7 +20,9 @@ leaving normal two-sided-book behavior unchanged.
 
 ## Results
 
-Exact final Round 1 total is still to confirm from competition/backtest records.
+Official placement: global `#2009`, United States `#590`.
+
+Exact final Round 1 PnL total is not documented in this cleaned workspace.
 The code comment documents the improvement source: extra PnL came only from
 previously skipped one-sided ticks.
 

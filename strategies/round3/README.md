@@ -23,6 +23,8 @@ online VFE anchor for deep-ITM option fair values.
 
 ## Results
 
+Official placement after finalist reset: global `#617`, United States `#183`.
+
 Documented variant evidence:
 
 | Test | Result |
@@ -32,7 +34,7 @@ Documented variant evidence:
 | Key no-hardcoded-FV variant total | `194,999` |
 
 The rolling-anchor choice sacrificed some in-sample PnL for portability. Exact
-final Round 3 total is still to confirm from competition/backtest records.
+final Round 3 PnL total is not documented in this cleaned workspace.
 
 ## Files To Inspect
 

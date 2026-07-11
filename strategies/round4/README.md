@@ -21,6 +21,8 @@ The final stack combined:
 
 ## Results
 
+Official placement: global `#270`, United States `#82`.
+
 Documented final backtest results from `final.py`:
 
 | Segment | Result |

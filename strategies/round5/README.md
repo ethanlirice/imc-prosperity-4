@@ -5,6 +5,8 @@ the iteration history that led to it.
 
 ## Current Final Result
 
+Official placement: global `#320`, United States `#101`.
+
 Documented in `TRADING.md`:
 
 | Run | Total | Day Split |
