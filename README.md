@@ -39,6 +39,8 @@ round of the trading competition.
 | 4 | `strategies/round4/final.py` | Global `#270`; US `#82`; R4 backtest total `970,314`. |
 | 5 | `trader.py` | Global `#320`; US `#101`; default `+1,479,360`. |
 
+For a concise explanation of each round's strategy, see `docs/strategy-summary.md`.
+
 ## Strategy Themes
 
 - Structural fair values from book behavior, wall mids, online anchors, and
