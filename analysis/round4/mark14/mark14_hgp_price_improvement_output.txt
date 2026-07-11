@@ -1,0 +1,42 @@
+Mark 14 × HYDROGEL_PACK — price improvement (Round 4 days 1–3)
+
+Sample: n=1003, qty sum=4022
+
+### vs aggressive touch (buy: ask−price; sell: price−bid)
+  buy: mean=15.9643, p50=16.0000, p10=16.0000, p90=16.0000
+  sell: mean=15.8677, p50=16.0000, p10=16.0000, p90=16.0000
+  pooled qty-weighted mean save_vs_touch: 15.9155
+
+### Mid capture (buy: mid−price; sell: price−mid)
+  buy: qty-weighted mean=7.9822
+  sell: qty-weighted mean=7.9338
+
+### Share of quoted spread captured (save/spread)
+  qty-weighted mean frac: 1.0000
+  frac == 1.0 (within 1e-9): 1.0000
+  rows strictly inside spread: 0 (0.0000)
+
+### vs bid+1 / ask−1 one-tick improved passive quote
+  buy: qty-weighted mean (positive ⇒ better than that 1-tick quote): 1.0000
+  sell: qty-weighted mean (positive ⇒ better than that 1-tick quote): 1.0000
+
+Interpretation sketch:
+- save_vs_touch ≈ spread on bid/ask prints: Mark 14 avoids paying the spread vs an immediate aggressive cross on the other side.
+- mid_capture ≈ half-spread per side at touch: consistent with passive liquidity provision being lifted by the counterparty.
+- 'Mark14-only price improvement' in CSV replay is mostly structural (at-touch), not oracle timing; executable replication after observing the ID is a separate question (see DATA.md).
+
+========================================================================
+## v314159.py — how Mark-related logic is implemented
+
+Source file: /Users/Ethan/Library/Mobile Documents/com~apple~CloudDocs/Projects/imc-prosperity/strategies/round4/v314159.py
+
+**Mark 14:** not used. No `Mark 14` string and no branch on Mark 14 in `market_trades`.
+
+**Mark 67 / Mark 49:** applied only on **VELVETFRUIT_EXTRACT** (`UNDERLYING`). `update_signal_state` scans `state.market_trades.get(UNDERLYING)` for `t.buyer == "Mark 67"` or `t.seller == "Mark 49"`, updates `last_signal_ts`, and `trade_ou_split(..., suppress_sell=signal_active)` suppresses **VFE sells** for `SIGNAL_WINDOW` after the last qualifying print.
+
+**Mark 22:** not read from trades. The strategy uses a **static** set `MARK22_VULNERABLE_STRIKES = {"VEV_5200", "VEV_5500"}` in `trade_option()` to **lower the option buy edge** (vs sell edge) on those symbols only — documentation ties this to Mark 22's selling pressure in data, but runtime code does not identify Mark 22.
+
+**HYDROGEL_PACK:** `trade_ou_split` with OU mean `HYDROGEL_MU`, micro-buy edge `MICRO_HGP_BUY_EDGE = 4`, passive edges `PASSIVE_HGP_BID_EDGE` / `PASSIVE_HGP_ASK_EDGE`. **No counterparty / Mark logic** on hydrogel.
+
+Verified: source text has no substring `Mark 14`.
+

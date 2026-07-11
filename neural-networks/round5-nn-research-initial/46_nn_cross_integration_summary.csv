@@ -1,0 +1,14 @@
+name,spec_count,day2,day3,day4,total
+base_nn_microchip_oval_v12,1,440342,401360,507776,1349478
+oxygen_chocolate_ret100_low_garlic_long_h1000,1,440342,401360,507776,1349478
+galaxy_dark_ret100_high_black_holes_long_h1000,1,440342,401360,507776,1349478
+galaxy_rings_ret100_low_black_holes_long_h1000,1,440342,401360,507776,1349478
+sleep_cotton_ret100_high_polyester_long_h1000,1,440342,401360,507776,1349478
+microchip_square_ret50_low_oval_short_h1000,1,440342,401974,507776,1350092
+microchip_rectangle_ret100_low_oval_short_h1000,1,440342,401360,507776,1349478
+robot_mopping_ret50_high_ironing_short_h1000,1,439312,401360,507776,1348448
+sleep_cotton_ret100_low_suede_long_h1000,1,440342,401360,507776,1349478
+galaxy_black_holes_ret100_high_flames_short_h1000,1,435606,401570,509758,1346935
+bundle_top3_distinct,3,440342,401974,507776,1350092
+bundle_oxygen_galaxy_microchip_sleep,4,440342,401974,507776,1350092
+bundle_all_non_free_alpha_targets,7,439312,401564,507776,1348652

@@ -1,0 +1,4 @@
+mechanic,source,target,expected_side,horizon
+lead_lag,SYN_A_LEADER,SYN_B_LAGGER,long,100
+suffix,SYN_C_SUFFIX,SYN_C_SUFFIX,long,100
+time_bucket,SYN_D_TIME,SYN_D_TIME,short,100

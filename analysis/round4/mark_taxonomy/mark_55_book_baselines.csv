@@ -1,0 +1,4 @@
+product,day,book_rows,median_spread,mean_spread,p90_spread,median_top_depth,mean_top_depth
+VELVETFRUIT_EXTRACT,1,10000,5.0,4.9846,6.0,78.0,75.5587
+VELVETFRUIT_EXTRACT,2,10000,5.0,4.9863,6.0,77.0,75.5832
+VELVETFRUIT_EXTRACT,3,10000,5.0,4.9764,6.0,77.0,75.4804

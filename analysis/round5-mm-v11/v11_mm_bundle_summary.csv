@@ -1,0 +1,6 @@
+case,kind,product,param,match_mode,day2,day3,day4,total,delta,min_day,status,error
+bundle_all_three,bundle,"PEBBLES_L,SNACKPACK_CHOCOLATE,ROBOT_DISHES",,default,441976,403608,507202,1352786,3308,403608,ok,
+bundle_pebbles_l_reduce_snack_choc_size1,bundle,"PEBBLES_L,SNACKPACK_CHOCOLATE",,default,441104,403670,507824,1352598,3120,403670,ok,
+bundle_snack_choc_size1_robot_dishes_reduce,bundle,"SNACKPACK_CHOCOLATE,ROBOT_DISHES",,default,442182,402090,507002,1351274,1796,402090,ok,
+bundle_pebbles_l_reduce_robot_dishes_reduce,bundle,"PEBBLES_L,ROBOT_DISHES",,default,441008,402818,507352,1351178,1700,402818,ok,
+baseline,baseline,,,default,440342,401360,507776,1349478,0,401360,ok,

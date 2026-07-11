@@ -1,0 +1,190 @@
+Mark 14 pre-event execution analysis
+Forward horizon: t+200
+Offsets: [100, 200, 500, 1000, 2000, 5000]
+Passive levels: ['join_bbo', 'improve_1', 'mid_passive']
+
+Event counts by product/side:
+             symbol side  events  days  mean_hist_edge  mean_event_mid_edge  avg_qty
+      HYDROGEL_PACK  buy     496     3        8.115927             0.135081 4.010081
+      HYDROGEL_PACK sell     507     3        8.207101             0.266272 4.009862
+VELVETFRUIT_EXTRACT  buy     316     3        2.338608            -0.091772 5.572785
+VELVETFRUIT_EXTRACT sell     331     3        2.303625            -0.158610 5.326284
+           VEV_4000  buy     232     3       10.215517            -0.250000 1.974138
+           VEV_4000 sell     207     3       10.381643             0.007246 1.990338
+           VEV_5200  buy      33     3        0.909091            -0.090909 3.696970
+           VEV_5300  buy      30     3        0.566667            -0.183333 3.500000
+           VEV_5400  buy      13     3        0.076923            -0.384615 3.692308
+           VEV_5500  buy       7     3        0.285714            -0.214286 3.857143
+
+Strong-product upper bound: cross before Mark 14 if side were known
+             symbol  offset  events  good_pct  mean_edge  unit_edge  qty_edge  mean_spread
+      HYDROGEL_PACK     100    1003  0.013958  -7.678465    -7701.5  -30795.5    15.676969
+      HYDROGEL_PACK     200    1003  0.021934  -7.644566    -7667.5  -30633.5    15.736790
+      HYDROGEL_PACK     500    1003  0.055833  -7.610668    -7633.5  -30352.5    15.685942
+      HYDROGEL_PACK    1000    1003  0.108674  -7.966600    -7990.5  -31836.5    15.708873
+      HYDROGEL_PACK    2000    1003  0.162512  -8.191924    -8216.5  -32441.5    15.743769
+      HYDROGEL_PACK    5000    1001  0.262737  -7.940060    -7948.0  -31933.5    15.642358
+VELVETFRUIT_EXTRACT     100     647  0.063369  -2.510819    -1624.5   -8833.0     4.967543
+VELVETFRUIT_EXTRACT     200     647  0.094281  -2.547913    -1648.5   -8823.0     5.003091
+VELVETFRUIT_EXTRACT     500     647  0.148377  -2.571097    -1663.5   -8971.0     5.046368
+VELVETFRUIT_EXTRACT    1000     647  0.221020  -2.594281    -1678.5   -9107.0     4.989181
+VELVETFRUIT_EXTRACT    2000     647  0.247295  -2.883308    -1865.5  -10229.0     5.001546
+VELVETFRUIT_EXTRACT    5000     645  0.365891  -2.613953    -1686.0   -9407.0     4.958140
+           VEV_4000     100     439  0.002278 -10.589977    -4649.0   -9239.5    20.799544
+           VEV_4000     200     439  0.006834 -10.519362    -4618.0   -9221.5    20.774487
+           VEV_4000     500     439  0.000000 -10.451025    -4588.0   -9180.5    20.817768
+           VEV_4000    1000     439  0.002278 -10.460137    -4592.0   -9182.5    20.799544
+           VEV_4000    2000     437  0.006865 -10.506865    -4591.5   -9234.0    20.743707
+           VEV_4000    5000     437  0.050343 -10.584668    -4625.5   -9270.0    20.810069
+
+Strong-product passive fill proxy
+             symbol  offset       level  events  fills  fill_rate  good_pct_if_filled  mean_edge_if_filled  unit_edge_if_filled  qty_edge_if_filled  edge_per_event
+      HYDROGEL_PACK     100   improve_1    1003    800   0.797607            0.967500             6.322500               5058.0             20433.5        5.042871
+      HYDROGEL_PACK     100    join_bbo    1003    629   0.627119            0.979332             6.821940               4291.0             17340.0        4.278166
+      HYDROGEL_PACK     100 mid_passive    1003   1003   1.000000            0.463609             0.189930                190.5               853.5        0.189930
+      HYDROGEL_PACK     200   improve_1    1003    707   0.704885            0.937765             5.749646               4065.0             16187.0        4.052841
+      HYDROGEL_PACK     200    join_bbo    1003    578   0.576271            0.955017             6.263841               3620.5             14494.5        3.609671
+      HYDROGEL_PACK     200 mid_passive    1003   1003   1.000000            0.472582             0.254736                255.5              1141.5        0.254736
+      HYDROGEL_PACK     500   improve_1    1003    646   0.644068            0.842105             4.699690               3036.0             12404.0        3.026919
+      HYDROGEL_PACK     500    join_bbo    1003    556   0.554337            0.872302             5.080036               2824.5             11753.0        2.816052
+      HYDROGEL_PACK     500 mid_passive    1003    986   0.983051            0.486815             0.109533                108.0               637.0        0.107677
+      HYDROGEL_PACK    1000   improve_1    1003    630   0.628116            0.730159             3.191270               2010.5              8086.5        2.004487
+      HYDROGEL_PACK    1000    join_bbo    1003    567   0.565304            0.753086             3.601411               2042.0              8103.5        2.035892
+      HYDROGEL_PACK    1000 mid_passive    1003    929   0.926221            0.414424            -1.012379               -940.5             -3615.0       -0.937687
+      HYDROGEL_PACK    2000   improve_1    1003    631   0.629113            0.591125             1.612520               1017.5              4113.5        1.014457
+      HYDROGEL_PACK    2000    join_bbo    1003    586   0.584247            0.621160             2.094710               1227.5              5009.0        1.223829
+      HYDROGEL_PACK    2000 mid_passive    1003    882   0.879362            0.394558            -2.086168              -1840.0             -7090.5       -1.834497
+      HYDROGEL_PACK    5000   improve_1    1001    659   0.658342            0.493171             0.335357                221.0               585.0        0.220779
+      HYDROGEL_PACK    5000    join_bbo    1001    624   0.623377            0.511218             0.592949                370.0              1313.0        0.369630
+      HYDROGEL_PACK    5000 mid_passive    1001    846   0.845155            0.382979            -3.248227              -2748.0            -11080.5       -2.745255
+VELVETFRUIT_EXTRACT     100   improve_1     644    587   0.911491            0.768313             1.289608                757.0              4064.0        1.175466
+VELVETFRUIT_EXTRACT     100    join_bbo     647    413   0.638331            0.857143             1.824455                753.5              4012.5        1.164606
+VELVETFRUIT_EXTRACT     100 mid_passive     644    636   0.987578            0.551887             0.338050                215.0              1178.5        0.333851
+VELVETFRUIT_EXTRACT     200   improve_1     645    537   0.832558            0.705773             1.043762                560.5              3044.0        0.868992
+VELVETFRUIT_EXTRACT     200    join_bbo     647    389   0.601236            0.796915             1.523136                592.5              3163.0        0.915765
+VELVETFRUIT_EXTRACT     200 mid_passive     645    616   0.955039            0.532468             0.194805                120.0               748.5        0.186047
+VELVETFRUIT_EXTRACT     500   improve_1     644    471   0.731366            0.598726             0.544586                256.5              1487.0        0.398292
+VELVETFRUIT_EXTRACT     500    join_bbo     647    361   0.557960            0.698061             1.047091                378.0              2046.5        0.584235
+VELVETFRUIT_EXTRACT     500 mid_passive     644    571   0.886646            0.483363            -0.088441                -50.5              -138.5       -0.078416
+VELVETFRUIT_EXTRACT    1000   improve_1     641    452   0.705148            0.511062            -0.012168                 -5.5                -6.5       -0.008580
+VELVETFRUIT_EXTRACT    1000    join_bbo     647    371   0.573416            0.574124             0.450135                167.0               863.0        0.258114
+VELVETFRUIT_EXTRACT    1000 mid_passive     641    516   0.804992            0.387597            -0.732558               -378.0             -1997.5       -0.589704
+VELVETFRUIT_EXTRACT    2000   improve_1     643    468   0.727838            0.442308            -0.636752               -298.0             -1488.5       -0.463453
+VELVETFRUIT_EXTRACT    2000    join_bbo     647    392   0.605873            0.451531            -0.399235               -156.5              -840.5       -0.241886
+VELVETFRUIT_EXTRACT    2000 mid_passive     643    521   0.810264            0.368522            -1.366603               -712.0             -3777.0       -1.107309
+VELVETFRUIT_EXTRACT    5000   improve_1     640    455   0.710938            0.393407            -1.365934               -621.5             -3578.5       -0.971094
+VELVETFRUIT_EXTRACT    5000    join_bbo     645    407   0.631008            0.405405            -1.197789               -487.5             -2746.0       -0.755814
+VELVETFRUIT_EXTRACT    5000 mid_passive     640    498   0.778125            0.373494            -1.841365               -917.0             -5154.5       -1.432813
+           VEV_4000     100   improve_1     439    413   0.940774            0.987893             9.081114               3750.5              7487.0        8.543280
+           VEV_4000     100    join_bbo     439    302   0.687927            0.990066             9.672185               2921.0              5811.0        6.653759
+           VEV_4000     100 mid_passive     439    439   1.000000            0.533030             0.189066                 83.0               165.5        0.189066
+           VEV_4000     200   improve_1     439    372   0.847380            0.991935             8.822581               3282.0              6447.5        7.476082
+           VEV_4000     200    join_bbo     439    278   0.633257            0.989209             9.357914               2601.5              5169.0        5.925968
+           VEV_4000     200 mid_passive     439    439   1.000000            0.544419             0.271071                119.0               173.5        0.271071
+           VEV_4000     500   improve_1     439    324   0.738041            0.987654             8.402778               2722.5              5377.5        6.201595
+           VEV_4000     500    join_bbo     439    244   0.555809            0.991803             8.678279               2117.5              4266.0        4.823462
+           VEV_4000     500 mid_passive     439    439   1.000000            0.542141             0.332574                146.0               201.5        0.332574
+           VEV_4000    1000   improve_1     439    318   0.724374            0.993711             8.069182               2566.0              5120.0        5.845103
+           VEV_4000    1000    join_bbo     439    245   0.558087            0.995918             8.346939               2045.0              4014.5        4.658314
+           VEV_4000    1000 mid_passive     439    439   1.000000            0.517084             0.339408                149.0               214.5        0.339408
+           VEV_4000    2000   improve_1     437    290   0.663616            0.968966             7.115517               2063.5              4197.5        4.721968
+           VEV_4000    2000    join_bbo     437    253   0.578947            0.976285             7.614625               1926.5              3972.5        4.408467
+           VEV_4000    2000 mid_passive     437    436   0.997712            0.529817             0.215596                 94.0                54.0        0.215103
+           VEV_4000    5000   improve_1     437    285   0.652174            0.877193             5.863158               1671.0              3268.0        3.823799
+           VEV_4000    5000    join_bbo     437    246   0.562929            0.898374             6.079268               1495.5              2902.5        3.422197
+           VEV_4000    5000 mid_passive     437    423   0.967963            0.491726            -0.223404                -94.5              -342.0       -0.216247
+
+Strong-product pre-event features
+             symbol  offset  events  mean_signed_pre_move  pct_buy_after_dip_sell_after_rally  mean_pre_spread  mean_signed_imbalance  pct_imbalance_with_signal
+      HYDROGEL_PACK     100    1003             -0.041376                            0.423729        15.676969              -0.000352                   0.017946
+      HYDROGEL_PACK     200    1003              0.022433                            0.432702        15.736790              -0.000911                   0.010967
+      HYDROGEL_PACK     500    1003              0.030907                            0.438684        15.685942               0.000177                   0.018943
+      HYDROGEL_PACK    1000    1003             -0.313559                            0.484546        15.708873               0.000501                   0.019940
+      HYDROGEL_PACK    2000    1003             -0.521436                            0.506481        15.743769              -0.000403                   0.013958
+      HYDROGEL_PACK    5000    1001             -0.324176                            0.486513        15.642358               0.000599                   0.023976
+VELVETFRUIT_EXTRACT     100     647              0.098918                            0.309119         4.967543               0.000178                   0.040185
+VELVETFRUIT_EXTRACT     200     647              0.079598                            0.397218         5.003091              -0.001296                   0.027821
+VELVETFRUIT_EXTRACT     500     647              0.078053                            0.418856         5.046368               0.001123                   0.035549
+VELVETFRUIT_EXTRACT    1000     647              0.026275                            0.431221         4.989181              -0.001074                   0.026275
+VELVETFRUIT_EXTRACT    2000     647             -0.256569                            0.486862         5.001546               0.000667                   0.040185
+VELVETFRUIT_EXTRACT    5000     645             -0.017054                            0.471318         4.958140               0.000363                   0.041860
+           VEV_4000     100     439             -0.061503                            0.366743        20.799544               0.000466                   0.011390
+           VEV_4000     200     439             -0.003417                            0.387244        20.774487              -0.000384                   0.006834
+           VEV_4000     500     439              0.086560                            0.410023        20.817768               0.000446                   0.009112
+           VEV_4000    1000     439              0.068337                            0.425968        20.799544              -0.000287                   0.004556
+           VEV_4000    2000     437              0.002288                            0.462243        20.743707               0.000153                   0.013730
+           VEV_4000    5000     437             -0.042334                            0.457666        20.810069               0.000120                   0.006865
+
+Strong-product next Mark 14 event sequencing
+             symbol  events_with_next  same_side_next_pct  mean_gap_to_next  median_gap_to_next  pct_next_within_500  pct_next_within_1000
+      HYDROGEL_PACK              1000            0.507000       2957.100000              2000.0             0.164000              0.290000
+VELVETFRUIT_EXTRACT               644            0.557453       4585.093168              3000.0             0.102484              0.204969
+           VEV_4000               436            0.504587       6841.055046              4900.0             0.066514              0.142202
+
+Strong-product repeated timestamp/side counts across days
+             symbol  unique_symbol_timestamp_side  repeated_2plus_days  repeated_3_days
+      HYDROGEL_PACK                           991                   12                0
+VELVETFRUIT_EXTRACT                           643                    4                0
+           VEV_4000                           437                    2                0
+
+Leave-one-day-out timestamp/side schedule replay
+ heldout_day  threshold_train_days  predicted_events  actual_events  true_positive_events  wrong_side_same_timestamp  precision   recall  timestamp_recall_any_side symbol
+           1                     1              1401            764                    11                         11   0.007852 0.014398                   0.028796    NaN
+           1                     2                 7            764                     0                          0   0.000000 0.000000                   0.000000    NaN
+           2                     1              1498            668                    12                         13   0.008011 0.017964                   0.037425    NaN
+           2                     2                 6            668                     0                          0   0.000000 0.000000                   0.000000    NaN
+           3                     1              1427            740                    13                         10   0.009110 0.017568                   0.031081    NaN
+           3                     2                 5            740                     0                          0   0.000000 0.000000                   0.000000    NaN
+
+Leave-one-day-out schedule replay by strong product
+ heldout_day  threshold_train_days  predicted_events  actual_events  true_positive_events  wrong_side_same_timestamp  precision   recall  timestamp_recall_any_side              symbol
+           1                     1               627            370                     6                          6   0.009569 0.016216                   0.032432       HYDROGEL_PACK
+           1                     2                 6            370                     0                          0   0.000000 0.000000                   0.000000       HYDROGEL_PACK
+           2                     1               696            303                     8                          6   0.011494 0.026403                   0.046205       HYDROGEL_PACK
+           2                     2                 4            303                     0                          0   0.000000 0.000000                   0.000000       HYDROGEL_PACK
+           3                     1               671            330                    10                          6   0.014903 0.030303                   0.048485       HYDROGEL_PACK
+           3                     2                 2            330                     0                          0   0.000000 0.000000                   0.000000       HYDROGEL_PACK
+           1                     1               436            211                     4                          4   0.009174 0.018957                   0.037915 VELVETFRUIT_EXTRACT
+           1                     2                 0            211                     0                          0        NaN 0.000000                   0.000000 VELVETFRUIT_EXTRACT
+           2                     1               435            210                     2                          5   0.004598 0.009524                   0.033333 VELVETFRUIT_EXTRACT
+           2                     2                 2            210                     0                          0   0.000000 0.000000                   0.000000 VELVETFRUIT_EXTRACT
+           3                     1               419            226                     2                          3   0.004773 0.008850                   0.022124 VELVETFRUIT_EXTRACT
+           3                     2                 2            226                     0                          0   0.000000 0.000000                   0.000000 VELVETFRUIT_EXTRACT
+           1                     1               275            163                     1                          1   0.003636 0.006135                   0.012270            VEV_4000
+           1                     2                 1            163                     0                          0   0.000000 0.000000                   0.000000            VEV_4000
+           2                     1               311            128                     2                          2   0.006431 0.015625                   0.031250            VEV_4000
+           2                     2                 0            128                     0                          0        NaN 0.000000                   0.000000            VEV_4000
+           3                     1               290            148                     1                          1   0.003448 0.006757                   0.013514            VEV_4000
+           3                     2                 1            148                     0                          0   0.000000 0.000000                   0.000000            VEV_4000
+
+Running extrema distance for strong products
+             symbol side  events  mean_relevant_distance  pct_at_extreme  pct_within_1  pct_within_2  pct_within_5  pct_within_10
+      HYDROGEL_PACK  buy     496               66.791331        0.004032      0.008065      0.016129      0.034274       0.076613
+      HYDROGEL_PACK sell     507               57.315582        0.013807      0.017751      0.019724      0.027613       0.061144
+VELVETFRUIT_EXTRACT  buy     316               30.481013        0.012658      0.018987      0.034810      0.079114       0.180380
+VELVETFRUIT_EXTRACT sell     331               40.870091        0.000000      0.003021      0.009063      0.039275       0.090634
+           VEV_4000  buy     232               32.853448        0.008621      0.017241      0.025862      0.060345       0.142241
+           VEV_4000 sell     207               41.908213        0.000000      0.004831      0.004831      0.043478       0.086957
+
+Best strong-product passive rows by edge_per_event:
+       symbol  offset     level  events  fills  fill_rate  good_pct_if_filled  mean_edge_if_filled  unit_edge_if_filled  qty_edge_if_filled  edge_per_event
+     VEV_4000     100 improve_1     439    413   0.940774            0.987893             9.081114               3750.5              7487.0        8.543280
+     VEV_4000     200 improve_1     439    372   0.847380            0.991935             8.822581               3282.0              6447.5        7.476082
+     VEV_4000     100  join_bbo     439    302   0.687927            0.990066             9.672185               2921.0              5811.0        6.653759
+     VEV_4000     500 improve_1     439    324   0.738041            0.987654             8.402778               2722.5              5377.5        6.201595
+     VEV_4000     200  join_bbo     439    278   0.633257            0.989209             9.357914               2601.5              5169.0        5.925968
+     VEV_4000    1000 improve_1     439    318   0.724374            0.993711             8.069182               2566.0              5120.0        5.845103
+HYDROGEL_PACK     100 improve_1    1003    800   0.797607            0.967500             6.322500               5058.0             20433.5        5.042871
+     VEV_4000     500  join_bbo     439    244   0.555809            0.991803             8.678279               2117.5              4266.0        4.823462
+     VEV_4000    2000 improve_1     437    290   0.663616            0.968966             7.115517               2063.5              4197.5        4.721968
+     VEV_4000    1000  join_bbo     439    245   0.558087            0.995918             8.346939               2045.0              4014.5        4.658314
+     VEV_4000    2000  join_bbo     437    253   0.578947            0.976285             7.614625               1926.5              3972.5        4.408467
+HYDROGEL_PACK     100  join_bbo    1003    629   0.627119            0.979332             6.821940               4291.0             17340.0        4.278166
+HYDROGEL_PACK     200 improve_1    1003    707   0.704885            0.937765             5.749646               4065.0             16187.0        4.052841
+     VEV_4000    5000 improve_1     437    285   0.652174            0.877193             5.863158               1671.0              3268.0        3.823799
+HYDROGEL_PACK     200  join_bbo    1003    578   0.576271            0.955017             6.263841               3620.5             14494.5        3.609671
+     VEV_4000    5000  join_bbo     437    246   0.562929            0.898374             6.079268               1495.5              2902.5        3.422197
+HYDROGEL_PACK     500 improve_1    1003    646   0.644068            0.842105             4.699690               3036.0             12404.0        3.026919
+HYDROGEL_PACK     500  join_bbo    1003    556   0.554337            0.872302             5.080036               2824.5             11753.0        2.816052
+HYDROGEL_PACK    1000  join_bbo    1003    567   0.565304            0.753086             3.601411               2042.0              8103.5        2.035892
+HYDROGEL_PACK    1000 improve_1    1003    630   0.628116            0.730159             3.191270               2010.5              8086.5        2.004487

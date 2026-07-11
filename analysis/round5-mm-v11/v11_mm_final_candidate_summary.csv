@@ -1,0 +1,2 @@
+candidate,total,delta_vs_v11,day2,day3,day4,match_none,match_worse,line_count,notes
+strategies/round5/base-strategy-free-alpha-side-gated-mr-mm-reanchor-v12-mm-owned-imbalance.py,1355002,5524,442320,404218,508464,832689,832689,496,"PEBBLES_L reduce-only owned MM; ROBOT_DISHES reduce-only owned MM; SNACKPACK_CHOCOLATE size-1 owned MM; MICROCHIP_CIRCLE imbalance threshold 0.4"

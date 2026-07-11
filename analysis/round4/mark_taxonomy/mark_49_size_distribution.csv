@@ -1,0 +1,3 @@
+product,side,n,mean,p25,median,p75,p90,max,top_sizes
+VELVETFRUIT_EXTRACT,buy,17,6.764705882352941,5.0,7.0,8.0,9.4,10,7x4; 5x3; 8x3; 10x2; 6x2
+VELVETFRUIT_EXTRACT,sell,105,10.2,8.0,10.0,12.0,14.0,15,8x19; 9x16; 11x12; 12x11; 14x11

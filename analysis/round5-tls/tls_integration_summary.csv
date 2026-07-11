@@ -1,0 +1,12 @@
+case,tls_cases,total,delta,day2,day3,day4
+oval_triangle,oval_triangle,1299868,-23951,446853,369922,483092
+triangle_square,triangle_square,1312697,-11122,442970,378848,490880
+laundry_ironing,laundry_ironing,1316454,-7365,437606,385862,492987
+strawberry_chocolate,strawberry_chocolate,1314029,-9790,442398,385892,485738
+dishes_laundry,dishes_laundry,1264553,-59266,443311,372118,449124
+nylon_lamb,nylon_lamb,1319398,-4421,445040,380330,494028
+vacuum_mopping_tls,vacuum_mopping_tls,1325227,1408,444153,375404,505670
+circle_square_tls,circle_square_tls,1318953,-4866,447596,387124,484232
+oval_triangle__nylon_lamb,"oval_triangle,nylon_lamb",1295447,-28372,447555,365765,482127
+oval_triangle__circle_square_tls,"oval_triangle,circle_square_tls",1295002,-28817,450111,372560,472332
+top_clean3,"oval_triangle,nylon_lamb,circle_square_tls",1290581,-33238,450813,368402,471366

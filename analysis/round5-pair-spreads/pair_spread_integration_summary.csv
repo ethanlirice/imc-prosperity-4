@@ -1,0 +1,594 @@
+case,pair_key,window,entry_z,hold,day2,day3,day4,total,delta,min_day,status,error
+MICROCHIP_RECTANGLE__MICROCHIP_SQUARE__w1000__z3.0__h500,MICROCHIP_RECTANGLE__MICROCHIP_SQUARE,1000,3.0,500,381769,344192,405048,1131009,-65193,344192,ok,
+MICROCHIP_RECTANGLE__MICROCHIP_SQUARE__w500__z2.5__h500,MICROCHIP_RECTANGLE__MICROCHIP_SQUARE,500,2.5,500,387932,335948,401047,1124927,-71275,335948,ok,
+MICROCHIP_RECTANGLE__MICROCHIP_SQUARE__w500__z3.0__h500,MICROCHIP_RECTANGLE__MICROCHIP_SQUARE,500,3.0,500,390308,335530,395706,1121544,-74658,335530,ok,
+MICROCHIP_RECTANGLE__MICROCHIP_SQUARE__w200__z2.5__h500,MICROCHIP_RECTANGLE__MICROCHIP_SQUARE,200,2.5,500,383590,337978,399536,1121104,-75098,337978,ok,
+MICROCHIP_RECTANGLE__MICROCHIP_SQUARE__w1000__z2.5__h500,MICROCHIP_RECTANGLE__MICROCHIP_SQUARE,1000,2.5,500,379159,338942,402728,1120829,-75373,338942,ok,
+MICROCHIP_RECTANGLE__MICROCHIP_SQUARE__w1000__z3.0__h200,MICROCHIP_RECTANGLE__MICROCHIP_SQUARE,1000,3.0,200,372839,334116,408687,1115642,-80560,334116,ok,
+MICROCHIP_RECTANGLE__MICROCHIP_SQUARE__w500__z3.0__h200,MICROCHIP_RECTANGLE__MICROCHIP_SQUARE,500,3.0,200,380376,328410,406653,1115439,-80763,328410,ok,
+MICROCHIP_RECTANGLE__MICROCHIP_SQUARE__w1000__z2.5__h200,MICROCHIP_RECTANGLE__MICROCHIP_SQUARE,1000,2.5,200,374485,326940,412294,1113719,-82483,326940,ok,
+MICROCHIP_RECTANGLE__MICROCHIP_SQUARE__w200__z3.0__h500,MICROCHIP_RECTANGLE__MICROCHIP_SQUARE,200,3.0,500,377190,341476,394706,1113372,-82830,341476,ok,
+MICROCHIP_RECTANGLE__MICROCHIP_SQUARE__w200__z2.5__h200,MICROCHIP_RECTANGLE__MICROCHIP_SQUARE,200,2.5,200,379866,340324,393154,1113344,-82858,340324,ok,
+SNACKPACK_RASPBERRY__SNACKPACK_VANILLA__w200__z2.5__h500,SNACKPACK_RASPBERRY__SNACKPACK_VANILLA,200,2.5,500,378421,351638,382334,1112393,-83809,351638,ok,
+MICROCHIP_RECTANGLE__MICROCHIP_SQUARE__w500__z1.5__h200,MICROCHIP_RECTANGLE__MICROCHIP_SQUARE,500,1.5,200,393001,330118,387636,1110755,-85447,330118,ok,
+SNACKPACK_RASPBERRY__SNACKPACK_VANILLA__w200__z2.5__h200,SNACKPACK_RASPBERRY__SNACKPACK_VANILLA,200,2.5,200,377713,351288,380484,1109485,-86717,351288,ok,
+MICROCHIP_RECTANGLE__MICROCHIP_SQUARE__w1000__z2.0__h500,MICROCHIP_RECTANGLE__MICROCHIP_SQUARE,1000,2.0,500,388377,320030,400745,1109152,-87050,320030,ok,
+MICROCHIP_RECTANGLE__MICROCHIP_SQUARE__w500__z2.5__h200,MICROCHIP_RECTANGLE__MICROCHIP_SQUARE,500,2.5,200,380062,324758,404272,1109092,-87110,324758,ok,
+MICROCHIP_RECTANGLE__MICROCHIP_SQUARE__w200__z3.0__h200,MICROCHIP_RECTANGLE__MICROCHIP_SQUARE,200,3.0,200,375578,340652,392297,1108527,-87675,340652,ok,
+MICROCHIP_RECTANGLE__MICROCHIP_SQUARE__w500__z1.5__h500,MICROCHIP_RECTANGLE__MICROCHIP_SQUARE,500,1.5,500,390774,328866,386613,1106253,-89949,328866,ok,
+MICROCHIP_RECTANGLE__MICROCHIP_SQUARE__w1000__z2.0__h200,MICROCHIP_RECTANGLE__MICROCHIP_SQUARE,1000,2.0,200,383983,316252,402829,1103064,-93138,316252,ok,
+MICROCHIP_RECTANGLE__MICROCHIP_SQUARE__w1000__z1.5__h200,MICROCHIP_RECTANGLE__MICROCHIP_SQUARE,1000,1.5,200,381328,329202,391447,1101977,-94225,329202,ok,
+MICROCHIP_RECTANGLE__MICROCHIP_SQUARE__w1000__z1.5__h500,MICROCHIP_RECTANGLE__MICROCHIP_SQUARE,1000,1.5,500,386323,317694,393185,1097202,-99000,317694,ok,
+MICROCHIP_RECTANGLE__MICROCHIP_SQUARE__w500__z2.0__h200,MICROCHIP_RECTANGLE__MICROCHIP_SQUARE,500,2.0,200,379844,322902,393607,1096353,-99849,322902,ok,
+MICROCHIP_RECTANGLE__MICROCHIP_SQUARE__w200__z2.0__h500,MICROCHIP_RECTANGLE__MICROCHIP_SQUARE,200,2.0,500,373481,316176,405223,1094880,-101322,316176,ok,
+MICROCHIP_RECTANGLE__MICROCHIP_SQUARE__w500__z2.0__h500,MICROCHIP_RECTANGLE__MICROCHIP_SQUARE,500,2.0,500,383627,323278,387142,1094047,-102155,323278,ok,
+MICROCHIP_RECTANGLE__MICROCHIP_SQUARE__w200__z2.0__h200,MICROCHIP_RECTANGLE__MICROCHIP_SQUARE,200,2.0,200,370852,317812,402454,1091118,-105084,317812,ok,
+MICROCHIP_RECTANGLE__MICROCHIP_SQUARE__w200__z1.5__h500,MICROCHIP_RECTANGLE__MICROCHIP_SQUARE,200,1.5,500,370421,314584,404622,1089627,-106575,314584,ok,
+SNACKPACK_RASPBERRY__SNACKPACK_VANILLA__w200__z2.0__h500,SNACKPACK_RASPBERRY__SNACKPACK_VANILLA,200,2.0,500,370055,346058,372314,1088427,-107775,346058,ok,
+MICROCHIP_RECTANGLE__MICROCHIP_SQUARE__w200__z1.5__h200,MICROCHIP_RECTANGLE__MICROCHIP_SQUARE,200,1.5,200,372667,310056,403913,1086636,-109566,310056,ok,
+SNACKPACK_RASPBERRY__SNACKPACK_VANILLA__w200__z2.0__h200,SNACKPACK_RASPBERRY__SNACKPACK_VANILLA,200,2.0,200,370787,344858,370344,1085989,-110213,344858,ok,
+SNACKPACK_RASPBERRY__SNACKPACK_VANILLA__w200__z1.5__h500,SNACKPACK_RASPBERRY__SNACKPACK_VANILLA,200,1.5,500,364283,337558,366112,1067953,-128249,337558,ok,
+SNACKPACK_RASPBERRY__SNACKPACK_VANILLA__w200__z1.5__h200,SNACKPACK_RASPBERRY__SNACKPACK_VANILLA,200,1.5,200,362413,335588,366482,1064483,-131719,335588,ok,
+SNACKPACK_RASPBERRY__SNACKPACK_VANILLA__w200__z3.0__h500,SNACKPACK_RASPBERRY__SNACKPACK_VANILLA,200,3.0,500,,,,,,,failed," │
+│ │               Documents/com~apple~CloudDocs/Projects/imc-prosperity/str… │ │
+│ │        name = 'base-strategy-free-alpha-side-gated-mr-configurable'      │ │
+│ │ parent_name = ''                                                         │ │
+│ │     pkgpath = None                                                       │ │
+│ │        spec = None                                                       │ │
+│ │      target = <module                                                    │ │
+│ │               'base-strategy-free-alpha-side-gated-mr-configurable' from │ │
+│ │               '/Users/Ethan/Library/Mobile                               │ │
+│ │               Documents/com~apple~CloudDocs/Projects/imc-prosperity/str… │ │
+│ ╰──────────────────────────────────────────────────────────────────────────╯ │
+╰──────────────────────────────────────────────────────────────────────────────╯
+ModuleNotFoundError: spec not found for the module 
+'base-strategy-free-alpha-side-gated-mr-configurable'
+"
+SNACKPACK_RASPBERRY__SNACKPACK_VANILLA__w500__z2.0__h500,SNACKPACK_RASPBERRY__SNACKPACK_VANILLA,500,2.0,500,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+SNACKPACK_RASPBERRY__SNACKPACK_VANILLA__w500__z2.5__h200,SNACKPACK_RASPBERRY__SNACKPACK_VANILLA,500,2.5,200,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+SNACKPACK_RASPBERRY__SNACKPACK_VANILLA__w500__z1.5__h200,SNACKPACK_RASPBERRY__SNACKPACK_VANILLA,500,1.5,200,,,,,,,failed," │
+│ │               Documents/com~apple~CloudDocs/Projects/imc-prosperity/str… │ │
+│ │        name = 'base-strategy-free-alpha-side-gated-mr-configurable'      │ │
+│ │ parent_name = ''                                                         │ │
+│ │     pkgpath = None                                                       │ │
+│ │        spec = None                                                       │ │
+│ │      target = <module                                                    │ │
+│ │               'base-strategy-free-alpha-side-gated-mr-configurable' from │ │
+│ │               '/Users/Ethan/Library/Mobile                               │ │
+│ │               Documents/com~apple~CloudDocs/Projects/imc-prosperity/str… │ │
+│ ╰──────────────────────────────────────────────────────────────────────────╯ │
+╰──────────────────────────────────────────────────────────────────────────────╯
+ModuleNotFoundError: spec not found for the module 
+'base-strategy-free-alpha-side-gated-mr-configurable'
+"
+SNACKPACK_RASPBERRY__SNACKPACK_VANILLA__w500__z2.5__h500,SNACKPACK_RASPBERRY__SNACKPACK_VANILLA,500,2.5,500,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+SNACKPACK_RASPBERRY__SNACKPACK_VANILLA__w500__z3.0__h200,SNACKPACK_RASPBERRY__SNACKPACK_VANILLA,500,3.0,200,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+SNACKPACK_RASPBERRY__SNACKPACK_VANILLA__w1000__z1.5__h200,SNACKPACK_RASPBERRY__SNACKPACK_VANILLA,1000,1.5,200,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+SNACKPACK_RASPBERRY__SNACKPACK_VANILLA__w500__z3.0__h500,SNACKPACK_RASPBERRY__SNACKPACK_VANILLA,500,3.0,500,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+SNACKPACK_RASPBERRY__SNACKPACK_VANILLA__w1000__z1.5__h500,SNACKPACK_RASPBERRY__SNACKPACK_VANILLA,1000,1.5,500,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+SNACKPACK_RASPBERRY__SNACKPACK_VANILLA__w1000__z2.0__h200,SNACKPACK_RASPBERRY__SNACKPACK_VANILLA,1000,2.0,200,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+SNACKPACK_RASPBERRY__SNACKPACK_VANILLA__w500__z1.5__h500,SNACKPACK_RASPBERRY__SNACKPACK_VANILLA,500,1.5,500,,,,,,,failed," │
+│ │               Documents/com~apple~CloudDocs/Projects/imc-prosperity/str… │ │
+│ │        name = 'base-strategy-free-alpha-side-gated-mr-configurable'      │ │
+│ │ parent_name = ''                                                         │ │
+│ │     pkgpath = None                                                       │ │
+│ │        spec = None                                                       │ │
+│ │      target = <module                                                    │ │
+│ │               'base-strategy-free-alpha-side-gated-mr-configurable' from │ │
+│ │               '/Users/Ethan/Library/Mobile                               │ │
+│ │               Documents/com~apple~CloudDocs/Projects/imc-prosperity/str… │ │
+│ ╰──────────────────────────────────────────────────────────────────────────╯ │
+╰──────────────────────────────────────────────────────────────────────────────╯
+ModuleNotFoundError: spec not found for the module 
+'base-strategy-free-alpha-side-gated-mr-configurable'
+"
+SNACKPACK_RASPBERRY__SNACKPACK_VANILLA__w1000__z2.0__h500,SNACKPACK_RASPBERRY__SNACKPACK_VANILLA,1000,2.0,500,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+SNACKPACK_RASPBERRY__SNACKPACK_VANILLA__w1000__z2.5__h200,SNACKPACK_RASPBERRY__SNACKPACK_VANILLA,1000,2.5,200,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+SNACKPACK_RASPBERRY__SNACKPACK_VANILLA__w1000__z2.5__h500,SNACKPACK_RASPBERRY__SNACKPACK_VANILLA,1000,2.5,500,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+SNACKPACK_RASPBERRY__SNACKPACK_VANILLA__w1000__z3.0__h200,SNACKPACK_RASPBERRY__SNACKPACK_VANILLA,1000,3.0,200,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+SNACKPACK_RASPBERRY__SNACKPACK_VANILLA__w1000__z3.0__h500,SNACKPACK_RASPBERRY__SNACKPACK_VANILLA,1000,3.0,500,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+GALAXY_SOUNDS_SOLAR_FLAMES__GALAXY_SOUNDS_SOLAR_WINDS__w200__z1.5__h200,GALAXY_SOUNDS_SOLAR_FLAMES__GALAXY_SOUNDS_SOLAR_WINDS,200,1.5,200,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+GALAXY_SOUNDS_SOLAR_FLAMES__GALAXY_SOUNDS_SOLAR_WINDS__w200__z1.5__h500,GALAXY_SOUNDS_SOLAR_FLAMES__GALAXY_SOUNDS_SOLAR_WINDS,200,1.5,500,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+GALAXY_SOUNDS_SOLAR_FLAMES__GALAXY_SOUNDS_SOLAR_WINDS__w200__z2.0__h200,GALAXY_SOUNDS_SOLAR_FLAMES__GALAXY_SOUNDS_SOLAR_WINDS,200,2.0,200,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+GALAXY_SOUNDS_SOLAR_FLAMES__GALAXY_SOUNDS_SOLAR_WINDS__w200__z2.0__h500,GALAXY_SOUNDS_SOLAR_FLAMES__GALAXY_SOUNDS_SOLAR_WINDS,200,2.0,500,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+GALAXY_SOUNDS_SOLAR_FLAMES__GALAXY_SOUNDS_SOLAR_WINDS__w200__z2.5__h200,GALAXY_SOUNDS_SOLAR_FLAMES__GALAXY_SOUNDS_SOLAR_WINDS,200,2.5,200,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+GALAXY_SOUNDS_SOLAR_FLAMES__GALAXY_SOUNDS_SOLAR_WINDS__w200__z2.5__h500,GALAXY_SOUNDS_SOLAR_FLAMES__GALAXY_SOUNDS_SOLAR_WINDS,200,2.5,500,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+GALAXY_SOUNDS_SOLAR_FLAMES__GALAXY_SOUNDS_SOLAR_WINDS__w200__z3.0__h200,GALAXY_SOUNDS_SOLAR_FLAMES__GALAXY_SOUNDS_SOLAR_WINDS,200,3.0,200,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+GALAXY_SOUNDS_SOLAR_FLAMES__GALAXY_SOUNDS_SOLAR_WINDS__w200__z3.0__h500,GALAXY_SOUNDS_SOLAR_FLAMES__GALAXY_SOUNDS_SOLAR_WINDS,200,3.0,500,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+GALAXY_SOUNDS_SOLAR_FLAMES__GALAXY_SOUNDS_SOLAR_WINDS__w500__z1.5__h200,GALAXY_SOUNDS_SOLAR_FLAMES__GALAXY_SOUNDS_SOLAR_WINDS,500,1.5,200,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+GALAXY_SOUNDS_SOLAR_FLAMES__GALAXY_SOUNDS_SOLAR_WINDS__w500__z1.5__h500,GALAXY_SOUNDS_SOLAR_FLAMES__GALAXY_SOUNDS_SOLAR_WINDS,500,1.5,500,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+GALAXY_SOUNDS_SOLAR_FLAMES__GALAXY_SOUNDS_SOLAR_WINDS__w500__z2.0__h200,GALAXY_SOUNDS_SOLAR_FLAMES__GALAXY_SOUNDS_SOLAR_WINDS,500,2.0,200,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+GALAXY_SOUNDS_SOLAR_FLAMES__GALAXY_SOUNDS_SOLAR_WINDS__w500__z2.0__h500,GALAXY_SOUNDS_SOLAR_FLAMES__GALAXY_SOUNDS_SOLAR_WINDS,500,2.0,500,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+GALAXY_SOUNDS_SOLAR_FLAMES__GALAXY_SOUNDS_SOLAR_WINDS__w500__z2.5__h200,GALAXY_SOUNDS_SOLAR_FLAMES__GALAXY_SOUNDS_SOLAR_WINDS,500,2.5,200,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+GALAXY_SOUNDS_SOLAR_FLAMES__GALAXY_SOUNDS_SOLAR_WINDS__w500__z2.5__h500,GALAXY_SOUNDS_SOLAR_FLAMES__GALAXY_SOUNDS_SOLAR_WINDS,500,2.5,500,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+GALAXY_SOUNDS_SOLAR_FLAMES__GALAXY_SOUNDS_SOLAR_WINDS__w500__z3.0__h200,GALAXY_SOUNDS_SOLAR_FLAMES__GALAXY_SOUNDS_SOLAR_WINDS,500,3.0,200,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+GALAXY_SOUNDS_SOLAR_FLAMES__GALAXY_SOUNDS_SOLAR_WINDS__w500__z3.0__h500,GALAXY_SOUNDS_SOLAR_FLAMES__GALAXY_SOUNDS_SOLAR_WINDS,500,3.0,500,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+GALAXY_SOUNDS_SOLAR_FLAMES__GALAXY_SOUNDS_SOLAR_WINDS__w1000__z1.5__h200,GALAXY_SOUNDS_SOLAR_FLAMES__GALAXY_SOUNDS_SOLAR_WINDS,1000,1.5,200,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+GALAXY_SOUNDS_SOLAR_FLAMES__GALAXY_SOUNDS_SOLAR_WINDS__w1000__z1.5__h500,GALAXY_SOUNDS_SOLAR_FLAMES__GALAXY_SOUNDS_SOLAR_WINDS,1000,1.5,500,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+GALAXY_SOUNDS_SOLAR_FLAMES__GALAXY_SOUNDS_SOLAR_WINDS__w1000__z2.0__h500,GALAXY_SOUNDS_SOLAR_FLAMES__GALAXY_SOUNDS_SOLAR_WINDS,1000,2.0,500,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+GALAXY_SOUNDS_SOLAR_FLAMES__GALAXY_SOUNDS_SOLAR_WINDS__w1000__z2.0__h200,GALAXY_SOUNDS_SOLAR_FLAMES__GALAXY_SOUNDS_SOLAR_WINDS,1000,2.0,200,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+GALAXY_SOUNDS_SOLAR_FLAMES__GALAXY_SOUNDS_SOLAR_WINDS__w1000__z2.5__h200,GALAXY_SOUNDS_SOLAR_FLAMES__GALAXY_SOUNDS_SOLAR_WINDS,1000,2.5,200,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+GALAXY_SOUNDS_SOLAR_FLAMES__GALAXY_SOUNDS_SOLAR_WINDS__w1000__z2.5__h500,GALAXY_SOUNDS_SOLAR_FLAMES__GALAXY_SOUNDS_SOLAR_WINDS,1000,2.5,500,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+GALAXY_SOUNDS_SOLAR_FLAMES__GALAXY_SOUNDS_SOLAR_WINDS__w1000__z3.0__h200,GALAXY_SOUNDS_SOLAR_FLAMES__GALAXY_SOUNDS_SOLAR_WINDS,1000,3.0,200,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+GALAXY_SOUNDS_SOLAR_FLAMES__GALAXY_SOUNDS_SOLAR_WINDS__w1000__z3.0__h500,GALAXY_SOUNDS_SOLAR_FLAMES__GALAXY_SOUNDS_SOLAR_WINDS,1000,3.0,500,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+SLEEP_POD_LAMB_WOOL__SLEEP_POD_NYLON__w200__z1.5__h200,SLEEP_POD_LAMB_WOOL__SLEEP_POD_NYLON,200,1.5,200,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+SLEEP_POD_LAMB_WOOL__SLEEP_POD_NYLON__w200__z1.5__h500,SLEEP_POD_LAMB_WOOL__SLEEP_POD_NYLON,200,1.5,500,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+SLEEP_POD_LAMB_WOOL__SLEEP_POD_NYLON__w200__z2.0__h200,SLEEP_POD_LAMB_WOOL__SLEEP_POD_NYLON,200,2.0,200,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+SLEEP_POD_LAMB_WOOL__SLEEP_POD_NYLON__w200__z2.0__h500,SLEEP_POD_LAMB_WOOL__SLEEP_POD_NYLON,200,2.0,500,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+SLEEP_POD_LAMB_WOOL__SLEEP_POD_NYLON__w200__z2.5__h200,SLEEP_POD_LAMB_WOOL__SLEEP_POD_NYLON,200,2.5,200,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+SLEEP_POD_LAMB_WOOL__SLEEP_POD_NYLON__w200__z2.5__h500,SLEEP_POD_LAMB_WOOL__SLEEP_POD_NYLON,200,2.5,500,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+SLEEP_POD_LAMB_WOOL__SLEEP_POD_NYLON__w200__z3.0__h500,SLEEP_POD_LAMB_WOOL__SLEEP_POD_NYLON,200,3.0,500,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+SLEEP_POD_LAMB_WOOL__SLEEP_POD_NYLON__w200__z3.0__h200,SLEEP_POD_LAMB_WOOL__SLEEP_POD_NYLON,200,3.0,200,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+SLEEP_POD_LAMB_WOOL__SLEEP_POD_NYLON__w500__z1.5__h200,SLEEP_POD_LAMB_WOOL__SLEEP_POD_NYLON,500,1.5,200,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+SLEEP_POD_LAMB_WOOL__SLEEP_POD_NYLON__w500__z2.0__h200,SLEEP_POD_LAMB_WOOL__SLEEP_POD_NYLON,500,2.0,200,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+SLEEP_POD_LAMB_WOOL__SLEEP_POD_NYLON__w500__z1.5__h500,SLEEP_POD_LAMB_WOOL__SLEEP_POD_NYLON,500,1.5,500,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+SLEEP_POD_LAMB_WOOL__SLEEP_POD_NYLON__w500__z2.0__h500,SLEEP_POD_LAMB_WOOL__SLEEP_POD_NYLON,500,2.0,500,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+SNACKPACK_RASPBERRY__SNACKPACK_VANILLA__w500__z2.0__h200,SNACKPACK_RASPBERRY__SNACKPACK_VANILLA,500,2.0,200,,,,,,,failed," │
+│ │               Documents/com~apple~CloudDocs/Projects/imc-prosperity/str… │ │
+│ │        name = 'base-strategy-free-alpha-side-gated-mr-configurable'      │ │
+│ │ parent_name = ''                                                         │ │
+│ │     pkgpath = None                                                       │ │
+│ │        spec = None                                                       │ │
+│ │      target = <module                                                    │ │
+│ │               'base-strategy-free-alpha-side-gated-mr-configurable' from │ │
+│ │               '/Users/Ethan/Library/Mobile                               │ │
+│ │               Documents/com~apple~CloudDocs/Projects/imc-prosperity/str… │ │
+│ ╰──────────────────────────────────────────────────────────────────────────╯ │
+╰──────────────────────────────────────────────────────────────────────────────╯
+ModuleNotFoundError: spec not found for the module 
+'base-strategy-free-alpha-side-gated-mr-configurable'
+"
+SLEEP_POD_LAMB_WOOL__SLEEP_POD_NYLON__w500__z2.5__h200,SLEEP_POD_LAMB_WOOL__SLEEP_POD_NYLON,500,2.5,200,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+SLEEP_POD_LAMB_WOOL__SLEEP_POD_NYLON__w500__z2.5__h500,SLEEP_POD_LAMB_WOOL__SLEEP_POD_NYLON,500,2.5,500,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+SLEEP_POD_LAMB_WOOL__SLEEP_POD_NYLON__w500__z3.0__h200,SLEEP_POD_LAMB_WOOL__SLEEP_POD_NYLON,500,3.0,200,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+SLEEP_POD_LAMB_WOOL__SLEEP_POD_NYLON__w500__z3.0__h500,SLEEP_POD_LAMB_WOOL__SLEEP_POD_NYLON,500,3.0,500,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+SLEEP_POD_LAMB_WOOL__SLEEP_POD_NYLON__w1000__z1.5__h200,SLEEP_POD_LAMB_WOOL__SLEEP_POD_NYLON,1000,1.5,200,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+SLEEP_POD_LAMB_WOOL__SLEEP_POD_NYLON__w1000__z1.5__h500,SLEEP_POD_LAMB_WOOL__SLEEP_POD_NYLON,1000,1.5,500,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+SLEEP_POD_LAMB_WOOL__SLEEP_POD_NYLON__w1000__z2.0__h200,SLEEP_POD_LAMB_WOOL__SLEEP_POD_NYLON,1000,2.0,200,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+SLEEP_POD_LAMB_WOOL__SLEEP_POD_NYLON__w1000__z2.0__h500,SLEEP_POD_LAMB_WOOL__SLEEP_POD_NYLON,1000,2.0,500,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+SLEEP_POD_LAMB_WOOL__SLEEP_POD_NYLON__w1000__z2.5__h200,SLEEP_POD_LAMB_WOOL__SLEEP_POD_NYLON,1000,2.5,200,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+SLEEP_POD_LAMB_WOOL__SLEEP_POD_NYLON__w1000__z2.5__h500,SLEEP_POD_LAMB_WOOL__SLEEP_POD_NYLON,1000,2.5,500,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+SLEEP_POD_LAMB_WOOL__SLEEP_POD_NYLON__w1000__z3.0__h200,SLEEP_POD_LAMB_WOOL__SLEEP_POD_NYLON,1000,3.0,200,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+SLEEP_POD_LAMB_WOOL__SLEEP_POD_NYLON__w1000__z3.0__h500,SLEEP_POD_LAMB_WOOL__SLEEP_POD_NYLON,1000,3.0,500,,,,,,,failed,"Usage: prosperity4btx [OPTIONS] ALGORITHM DAYS...
+Try 'prosperity4btx --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Invalid value for 'ALGORITHM': File                                          │
+│ 'strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py'   │
+│ does not exist.                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+"
+SNACKPACK_RASPBERRY__SNACKPACK_VANILLA__w200__z3.0__h200,SNACKPACK_RASPBERRY__SNACKPACK_VANILLA,200,3.0,200,,,,,,,failed," │
+│ │               Documents/com~apple~CloudDocs/Projects/imc-prosperity/str… │ │
+│ │        name = 'base-strategy-free-alpha-side-gated-mr-configurable'      │ │
+│ │ parent_name = ''                                                         │ │
+│ │     pkgpath = None                                                       │ │
+│ │        spec = None                                                       │ │
+│ │      target = <module                                                    │ │
+│ │               'base-strategy-free-alpha-side-gated-mr-configurable' from │ │
+│ │               '/Users/Ethan/Library/Mobile                               │ │
+│ │               Documents/com~apple~CloudDocs/Projects/imc-prosperity/str… │ │
+│ ╰──────────────────────────────────────────────────────────────────────────╯ │
+╰──────────────────────────────────────────────────────────────────────────────╯
+ModuleNotFoundError: spec not found for the module 
+'base-strategy-free-alpha-side-gated-mr-configurable'
+"

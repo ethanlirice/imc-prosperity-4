@@ -1,0 +1,11 @@
+symbol,side,unique_timestamp_keys,repeated_2plus_days,repeated_3_days
+HYDROGEL_PACK,buy,493,3,0
+HYDROGEL_PACK,sell,498,9,0
+VELVETFRUIT_EXTRACT,buy,314,2,0
+VELVETFRUIT_EXTRACT,sell,329,2,0
+VEV_4000,buy,231,1,0
+VEV_4000,sell,206,1,0
+VEV_5200,buy,33,0,0
+VEV_5300,buy,30,0,0
+VEV_5400,buy,13,0,0
+VEV_5500,buy,7,0,0
