@@ -256,7 +256,7 @@ Validated ablation notes:
 
 **Status:** research-only; not promoted to `trader.py`.
 
-New diagnostics in `analysis/round5-mean-reversion/` separate direct
+New diagnostics in `analysis/round5/mean-reversion/` separate direct
 product rolling-anchor MR from group-index MR and prior residual/stat-arb MR.
 The first isolated active-entry/active-exit probe found stable candidates:
 - `PEBBLES_XL` product rolling window **200**, z **2.5**, hold **500**:
@@ -323,10 +323,10 @@ New tooling prepared for fast promotion testing:
     `ADD_FREE_ALPHA_PRODUCTS`, `DROP_FREE_ALPHA_PRODUCTS`,
     `DROP_MM_PRODUCTS`, `MM_BID_OFF_PRODUCTS`, `MM_ASK_OFF_PRODUCTS`,
     `MM_ONLY_PRODUCTS`, `FREE_ALPHA_EDGE_OVERRIDES`.
-- `analysis/round5-owner-side/22_owner_side_ablation.py`
+- `analysis/round5/owner-side/22_owner_side_ablation.py`
   - runs batched owner/side ablations and writes:
-    - `analysis/round5-owner-side/owner_side_ablation_summary.csv`
-    - `analysis/round5-owner-side/owner_side_ablation_product_day.csv`
+    - `analysis/round5/owner-side/owner_side_ablation_summary.csv`
+    - `analysis/round5/owner-side/owner_side_ablation_product_day.csv`
 
 Status: harness is ready; full sweep result is pending because the run was
 interrupted before completion.
@@ -337,9 +337,9 @@ interrupted before completion.
 
 Files:
 - `strategies/round5/v10-tls-configurable.py`
-- `analysis/round5-tls/38_rolling_tls_target_scan.py`
-- `analysis/round5-tls/39_tls_integration_sweep.py`
-- `analysis/round5-tls/40_tls_passive_sweep.py`
+- `analysis/round5/tls-pair-spreads/38_rolling_tls_target_scan.py`
+- `analysis/round5/tls-pair-spreads/39_tls_integration_sweep.py`
+- `analysis/round5/tls-pair-spreads/40_tls_passive_sweep.py`
 
 Result versus v10 **+1,323,819**:
 - Active rolling pair-fair replacements were negative for the main candidates.
@@ -416,7 +416,7 @@ Rejected MM changes:
   `MICROCHIP_SQUARE` had no effect.
 
 Supporting outputs:
-`analysis/round5-mm-v11/v11_mm_contribution_by_product.csv`,
+`analysis/round5/market-making-v11/v11_mm_contribution_by_product.csv`,
 `v11_mm_rejected_changes.csv`, and `v11_mm_final_candidate_summary.csv`.
 
 ## Alternate trader compatibility cleanup

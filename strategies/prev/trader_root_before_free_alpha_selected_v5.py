@@ -6,7 +6,7 @@ from typing import Any, Dict, List, Optional, Tuple
 
 # Primary R5 backtest: not run yet.
 # Experiment: v3 with best stable entry threshold per free-alpha product from
-# analysis/round5-free-alpha/free_alpha_sweep_product_day.csv.
+# analysis/round5/free-alpha/free_alpha_sweep_product_day.csv.
 
 LIMIT = 10
 FREE_ALPHA_ENTRY_EDGE = 80.0

@@ -15,7 +15,6 @@ each round of the trading competition.
 | `archive/round4` | Round 4 final model, major variants, and strategy experiments. |
 | `strategies` | Round 5 strategy iteration history and promoted candidates. |
 | `analysis` | Research notebooks/scripts used to diagnose signals and validate ideas. |
-| `raw-data` | Competition price/trade data used for local analysis and backtests. |
 | `manual-challenge` | Round 5 manual challenge optimizer and recommendation. |
 | `DATA.md` / `TRADING.md` | Condensed empirical findings and validated Round 5 strategy decisions. |
 

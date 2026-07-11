@@ -11,7 +11,7 @@ Position budgeting: stat-arb products are owned exclusively by Layer 3 to avoid
 conflicting orders with MM/MR; the other 45 products get MM + MR layered, with
 MR consuming capacity first and MM quoting whatever remains.
 
-Phase 1 survivor pairs (from analysis/round5-3layer/01_pair_walkforward.csv):
+Phase 1 survivor pairs (from analysis/round5/three-layer-prototype/01_pair_walkforward.csv):
   SNACKPACK_CHOCOLATE  vs SNACKPACK_PISTACHIO   wf Sharpe 1.66/1.68, +1746 PnL
   OXYGEN_SHAKE_CHOCOLATE vs OXYGEN_SHAKE_GARLIC wf Sharpe 1.07/1.08, +2790 PnL
   SNACKPACK_PISTACHIO  vs SNACKPACK_RASPBERRY   wf Sharpe 1.02/1.37, +2440 PnL

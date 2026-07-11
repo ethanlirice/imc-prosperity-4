@@ -11,7 +11,7 @@ from typing import Dict, Iterable, List
 ROOT = Path(__file__).resolve().parents[2]
 BASE = ROOT / "strategies/round5/nn-cross-microchip-oval-v12-candidate.py"
 TRADER = ROOT / "trader.py"
-OUT = ROOT / "analysis/round5-nn-research/46_nn_cross_integration_summary.csv"
+OUT = ROOT / "neural-networks/round5-nn-research-initial/46_nn_cross_integration_summary.csv"
 VARIANT_DIR = ROOT / "strategies/round5/nn-cross-sweep-generated"
 
 

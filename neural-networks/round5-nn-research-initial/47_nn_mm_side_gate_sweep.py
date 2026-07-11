@@ -11,7 +11,7 @@ from typing import Callable, Dict, List
 ROOT = Path(__file__).resolve().parents[2]
 BASE = ROOT / "strategies/round5/nn-cross-mm-ret50-v13-candidate.py"
 TRADER = ROOT / "trader.py"
-OUT = ROOT / "analysis/round5-nn-research/47_nn_mm_side_gate_summary.csv"
+OUT = ROOT / "neural-networks/round5-nn-research-initial/47_nn_mm_side_gate_summary.csv"
 VARIANT_DIR = ROOT / "strategies/round5/nn-mm-side-sweep-generated"
 
 

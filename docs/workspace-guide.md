@@ -9,8 +9,9 @@ plus `strategies/` for Round 5. Each round keeps the final model and enough
 nearby variants to show what was tested.
 
 Use `analysis/` for the research trail: notebooks, scanners, scripts, and small
-summary artifacts that explain why a strategy changed. Use `raw-data/` for the
-price/trade data used by those analyses.
+summary artifacts that explain why a strategy changed. Raw competition data and
+large backtest outputs are excluded from the GitHub version to keep the repo
+lightweight.
 
 ## What Was Removed Or Left Untracked
 

@@ -35,10 +35,10 @@ takeover-style port that captures this on D4 without disturbing D2/D3.
 
 ## Round 5 NN-assisted broad alpha scan
 
-Scripts/output: `analysis/round5-nn-research/41_hidden_mechanic_scan.py`,
+Scripts/output: `neural-networks/round5-nn-research-initial/41_hidden_mechanic_scan.py`,
 `42_broad_feature_event_scan.py`, `43_cross_pressure_leadlag_scan.py`,
 `44_tree_gru_research.py`, and top-ranked CSVs in
-`analysis/round5-nn-research/`. Data: `raw-data/ROUND5` days 2, 3, 4.
+`neural-networks/round5-nn-research-initial/`. Data: `raw-data/ROUND5` days 2, 3, 4.
 
 All scanner edges are execution-aware:
 long edge = future bid1 - current ask1; short edge = current bid1 - future ask1.
@@ -88,7 +88,7 @@ ownership. Promote only after copy-based integrated backtests.
 
 ## Round 5 NN/stochastic lab v2
 
-Script/output: `analysis/round5-nn-research/45_rnn_stochastic_lab.py`,
+Script/output: `neural-networks/round5-nn-research-initial/45_rnn_stochastic_lab.py`,
 `45_rnn_stable_targets.csv`, `45_rnn_target_metrics.csv`,
 `45_rnn_saliency.csv`, `45_stochastic_ou_summary.csv`,
 `45_synthetic_injection_recovery.csv`.
@@ -143,7 +143,7 @@ clusters rather than a single exact residue.
 
 ## Round 5 NN integration results (execution-aware)
 
-Outputs: `analysis/round5-nn-research/46_nn_cross_integration_summary.csv` and
+Outputs: `neural-networks/round5-nn-research-initial/46_nn_cross_integration_summary.csv` and
 `47_nn_mm_side_gate_summary.csv`.
 
 Confirmed integrated findings:
@@ -407,7 +407,7 @@ but broad pair stacking is not the next path forward.
 
 ## Round 5 simple MM/MR framework
 
-Scripts/output: `analysis/round5-mm-mr/19_mm_mr_framework.py`,
+Scripts/output: `analysis/round5/mm-mr-framework/19_mm_mr_framework.py`,
 `variant_summary.csv`, `variant_product_day_pnl.csv`,
 `product_variant_totals.csv`.
 
@@ -429,7 +429,7 @@ Applying that to the current baseline improved results:
 
 ## Round 5 free-alpha path table
 
-Scripts/output: `analysis/round5-free-alpha/20_free_alpha_probe.py`,
+Scripts/output: `analysis/round5/free-alpha/20_free_alpha_probe.py`,
 `21_free_alpha_backtest_sweep.py`, `free_alpha_shape_probe.csv`,
 `free_alpha_sweep_summary.csv`, `free_alpha_sweep_product_day.csv`.
 
@@ -455,7 +455,7 @@ Prepared but not finished this session:
 - Configurable v5 candidate:
   `strategies/round5/base-strategy-free-alpha-configurable.py`.
 - Ablation runner:
-  `analysis/round5-owner-side/22_owner_side_ablation.py`.
+  `analysis/round5/owner-side/22_owner_side_ablation.py`.
 
 Designed ablation families:
 - MM ownership ablations per product: `mm_bid_off`, `mm_ask_off`, `mm_drop`.
@@ -469,9 +469,9 @@ Run status:
 ## Round 5 owner/side ablation completion and v6 bundle
 
 Scripts/output:
-`analysis/round5-owner-side/22_owner_side_ablation.py`,
-`analysis/round5-owner-side/owner_side_ablation_summary.csv`,
-`analysis/round5-owner-side/owner_side_ablation_product_day.csv`.
+`analysis/round5/owner-side/22_owner_side_ablation.py`,
+`analysis/round5/owner-side/owner_side_ablation_summary.csv`,
+`analysis/round5/owner-side/owner_side_ablation_product_day.csv`.
 
 The owner/side/free-alpha ablation sweep completed with **101 / 101** cases OK.
 Positive single-factor deltas over v5 included:
@@ -509,8 +509,8 @@ conflicting free-alpha overlays for `GALAXY_SOUNDS_BLACK_HOLES` or
 ## Round 5 direct and group-index mean reversion scan
 
 Scripts/output:
-`analysis/round5-mean-reversion/23_mean_reversion_scan.py`,
-`analysis/round5-mean-reversion/24_mr_executable_probe.py`,
+`analysis/round5/mean-reversion/23_mean_reversion_scan.py`,
+`analysis/round5/mean-reversion/24_mr_executable_probe.py`,
 `mr_product_scan.csv`, `mr_product_day.csv`, `mr_group_scan.csv`,
 `mr_group_day.csv`, `mr_executable_summary.csv`, `mr_executable_day.csv`.
 
@@ -562,8 +562,8 @@ Interpretation:
 Scripts/output:
 `strategies/round5/base-strategy-free-alpha-side-gated-mr-configurable.py`,
 `strategies/round5/base-strategy-free-alpha-side-gated-mr-v7.py`,
-`analysis/round5-mean-reversion/mr_configurable_backtest_summary.csv`,
-`analysis/round5-mean-reversion/mr_configurable_loo_diagnostics.csv`.
+`analysis/round5/mean-reversion/mr_configurable_backtest_summary.csv`,
+`analysis/round5/mean-reversion/mr_configurable_loo_diagnostics.csv`.
 
 Configurable integration around v6 tested direct rolling-anchor MR with product
 ownership conflicts resolved by running free-alpha/residual first, then MR, then
@@ -598,12 +598,12 @@ diagnostics by **+203,764**.
 ## Round 5 MM refinement, event schedule, and re-anchored hidden paths
 
 Scripts/output:
-`analysis/round5-mm-v7/26_v7_mm_refinement.py`,
-`analysis/round5-mm-v7/27_v7_mm_bundle_tests.py`,
-`analysis/round5-hidden-paths/36_reanchor_integration_sweep.py`,
-`analysis/round5-hidden-paths/37_reanchor_winner_bundles.py`,
-`analysis/round5-hidden-paths/reanchor_integration_summary.csv`,
-`analysis/round5-hidden-paths/reanchor_integration_product_day.csv`.
+`analysis/round5/market-making-v7/26_v7_mm_refinement.py`,
+`analysis/round5/market-making-v7/27_v7_mm_bundle_tests.py`,
+`analysis/round5/hidden-paths/36_reanchor_integration_sweep.py`,
+`analysis/round5/hidden-paths/37_reanchor_winner_bundles.py`,
+`analysis/round5/hidden-paths/reanchor_integration_summary.csv`,
+`analysis/round5/hidden-paths/reanchor_integration_product_day.csv`.
 
 MM refinement around v7 found the default full-size touch layer was already
 good, but a small set of quote-size changes was additive:
@@ -638,12 +638,12 @@ requires conflict-aware `prosperity4btx` testing against the current trader.
 ## Round 5 rolling TLS / pair-fair alpha test
 
 Scripts/output:
-`analysis/round5-tls/38_rolling_tls_target_scan.py`,
-`analysis/round5-tls/39_tls_integration_sweep.py`,
-`analysis/round5-tls/40_tls_passive_sweep.py`,
-`analysis/round5-tls/rolling_tls_target_summary.csv`,
-`analysis/round5-tls/tls_integration_summary.csv`,
-`analysis/round5-tls/tls_passive_summary.csv`.
+`analysis/round5/tls-pair-spreads/38_rolling_tls_target_scan.py`,
+`analysis/round5/tls-pair-spreads/39_tls_integration_sweep.py`,
+`analysis/round5/tls-pair-spreads/40_tls_passive_sweep.py`,
+`analysis/round5/tls-pair-spreads/rolling_tls_target_summary.csv`,
+`analysis/round5/tls-pair-spreads/tls_integration_summary.csv`,
+`analysis/round5/tls-pair-spreads/tls_passive_summary.csv`.
 
 Hypothesis from `strategies/reverse-engineering/alpha_inspo.md`: TLS or
 rolling-beta same-family relationships, especially Snackpack/Microchip/Robot,
@@ -721,7 +721,7 @@ beat v14 on the primary default while preserving day stability.
 ## Round 5 v11 market-making attribution and refinements
 
 Scripts/output:
-`analysis/round5-mm-v11/45a_v11_mm_core_attribution.py`,
+`analysis/round5/market-making-v11/45a_v11_mm_core_attribution.py`,
 `47b_v11_mm_side_on_tests.py`, `47c_v11_mm_size_tests.py`,
 `47d_v11_mm_owned_coexistence.py`, `47e_v11_mm_bundle_tests.py`,
 `47f_v11_mm_imbalance_tests.py`,
