@@ -17,5 +17,5 @@ Key highlights:
 - `mark14/` and `mark67/`: targeted probes around specific marks.
 
 The main strategy outcome was the layered Round 4 model in
-`archive/round4/final.py`: OU fair values, option pricing, IV regime detection,
+`strategies/round4/final.py`: OU fair values, option pricing, IV regime detection,
 deep-ITM handling, and informed-flow adjustments.

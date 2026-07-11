@@ -16,4 +16,4 @@ Key highlights:
 - `round3_05_forensic_bot_edges.ipynb`: deeper forensic checks on bot edges.
 
 The main strategy outcome was the move toward online fair-value anchors and
-option-surface execution logic, reflected in `archive/round3/traderfinal.py`.
+option-surface execution logic, reflected in `strategies/round3/traderfinal.py`.

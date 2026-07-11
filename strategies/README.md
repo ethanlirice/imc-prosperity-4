@@ -1,41 +1,13 @@
-# Round 5 Strategy History
+# Strategy History
 
-The active Round 5 model is the repository-root `trader.py`. This folder keeps
-the iteration history that led to it.
+This folder is organized by competition round. Each round folder keeps the final model plus selected variants that show the development path.
 
-## Current Final Result
+| Folder | Purpose |
+|---|---|
+| `round1/` | Final Round 1 strategy and summary. |
+| `round2/` | Final Round 2 strategy plus the main v8-v11 progression. |
+| `round3/` | Round 3 options/underlying strategy variants and final model. |
+| `round4/` | Round 4 final model, major variants, and strategy experiments. |
+| `round5/` | Round 5 iteration history, promoted candidates, alternate strategies, and hypothesis notes. |
 
-Documented in `TRADING.md`:
-
-| Run | Total | Day Split |
-|---|---:|---|
-| v14 baseline | `+1,370,720` | `+447,335 / +397,392 / +525,994` |
-| promoted `trader.py` | `+1,479,360` | `+447,335 / +397,392 / +634,633` |
-| delta | `+108,640` | `0 / 0 / +108,639` |
-
-Diagnostics:
-
-| Mode | Result |
-|---|---:|
-| `--match-trades none` | `+958,900` |
-| `--match-trades worse` | `+965,011` |
-
-## Strategy Stack
-
-The final model combines:
-
-- residual and basket-style relationships inside product groups,
-- re-anchored hidden-path fair values,
-- product-local mean reversion,
-- passive market making with product-specific side gates,
-- NN/tree-assisted candidate generation converted into deterministic rules,
-- a `ROBOT_DISHES` shock-takeover sleeve for the Round 5 D4 regime.
-
-## Folder Guide
-
-- `session/`: most relevant late-stage Round 5 candidates and promoted variants.
-- `prev/`: earlier lower-PnL Round 5 strategy iterations.
-- `alt-strategies/`: alternate strategies preserved for comparison.
-- `competitor-alpha/`: background hypothesis notes; not part of the final model.
-
-For validated findings, read root `DATA.md` and `TRADING.md`.
+The active Round 5 submission remains at repository-root `trader.py`; `strategies/round5/` preserves the work history that led to it. For validated findings and results, read root `DATA.md`, `TRADING.md`, and `docs/results-summary.md`.

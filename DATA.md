@@ -35,10 +35,10 @@ takeover-style port that captures this on D4 without disturbing D2/D3.
 
 ## Round 5 NN-assisted broad alpha scan
 
-Scripts/output: `neural-networks/round5-nn-research-initial/41_hidden_mechanic_scan.py`,
+Scripts/output: `analysis/round5/neural-signals/41_hidden_mechanic_scan.py`,
 `42_broad_feature_event_scan.py`, `43_cross_pressure_leadlag_scan.py`,
 `44_tree_gru_research.py`, and top-ranked CSVs in
-`neural-networks/round5-nn-research-initial/`. Data: `raw-data/ROUND5` days 2, 3, 4.
+`analysis/round5/neural-signals/`. Data: `raw-data/ROUND5` days 2, 3, 4.
 
 All scanner edges are execution-aware:
 long edge = future bid1 - current ask1; short edge = current bid1 - future ask1.
@@ -88,16 +88,12 @@ ownership. Promote only after copy-based integrated backtests.
 
 ## Round 5 NN/stochastic lab v2
 
-Script/output: `neural-networks/round5-nn-research-initial/45_rnn_stochastic_lab.py`,
-`45_rnn_stable_targets.csv`, `45_rnn_target_metrics.csv`,
+Script/output: `analysis/round5/neural-signals/45_rnn_stochastic_lab.py`,
+`45_rnn_stable_targets.csv`,
 `45_rnn_saliency.csv`, `45_stochastic_ou_summary.csv`,
 `45_synthetic_injection_recovery.csv`.
 
-Reference audit: `neural-networks/reference/provided.py` and `provided2.py`
-are incomplete and do not compile; both end at an unfinished `leakage_report`
-definition. Useful replicated ideas were rich product/book/group features,
-product/group embeddings, high-edge sample weighting, synthetic mechanics, and
-explicit leaky/diagnostic separation.
+Reference audit: historical NN reference notes were incomplete and did not compile; useful replicated ideas were rich product/book/group features, product/group embeddings, high-edge sample weighting, synthetic mechanics, and explicit leaky/diagnostic separation.
 
 The v2 RNN is a real product-sequence GRU: 32-tick product-local sequence,
 product/group embeddings, cross-product group/market context, and 12
@@ -143,7 +139,7 @@ clusters rather than a single exact residue.
 
 ## Round 5 NN integration results (execution-aware)
 
-Outputs: `neural-networks/round5-nn-research-initial/46_nn_cross_integration_summary.csv` and
+Outputs: `analysis/round5/neural-signals/46_nn_cross_integration_summary.csv` and
 `47_nn_mm_side_gate_summary.csv`.
 
 Confirmed integrated findings:
@@ -407,9 +403,7 @@ but broad pair stacking is not the next path forward.
 
 ## Round 5 simple MM/MR framework
 
-Scripts/output: `analysis/round5/mm-mr-framework/19_mm_mr_framework.py`,
-`variant_summary.csv`, `variant_product_day_pnl.csv`,
-`product_variant_totals.csv`.
+Historical prototype summarized here; detailed generated outputs were pruned from the public workspace.
 
 The reverse-engineering/stable-line hypothesis was tested directly. Broad
 all-product fair-value skew plus active mean reversion was strongly negative:
@@ -429,9 +423,7 @@ Applying that to the current baseline improved results:
 
 ## Round 5 free-alpha path table
 
-Scripts/output: `analysis/round5/free-alpha/20_free_alpha_probe.py`,
-`21_free_alpha_backtest_sweep.py`, `free_alpha_shape_probe.csv`,
-`free_alpha_sweep_summary.csv`, `free_alpha_sweep_product_day.csv`.
+Historical free-alpha probe summarized here; the promoted hidden-path evidence now lives under `analysis/round5/hidden-paths/`.
 
 The supplied five-number table is best interpreted as a five-bucket fair path:
 `[base, base+d1, base+d2, base+d3, base+d4]`. Against actual mids, the anchor
@@ -454,8 +446,7 @@ Best selective overlay:
 Prepared but not finished this session:
 - Configurable v5 candidate:
   `strategies/round5/base-strategy-free-alpha-configurable.py`.
-- Ablation runner:
-  `analysis/round5/owner-side/22_owner_side_ablation.py`.
+- Ablation runner: historical owner-side sweep summarized below; detailed generated outputs were pruned.
 
 Designed ablation families:
 - MM ownership ablations per product: `mm_bid_off`, `mm_ask_off`, `mm_drop`.
@@ -468,10 +459,7 @@ Run status:
 
 ## Round 5 owner/side ablation completion and v6 bundle
 
-Scripts/output:
-`analysis/round5/owner-side/22_owner_side_ablation.py`,
-`analysis/round5/owner-side/owner_side_ablation_summary.csv`,
-`analysis/round5/owner-side/owner_side_ablation_product_day.csv`.
+Historical owner/side ablation outputs are summarized here; detailed generated files were pruned from the public workspace.
 
 The owner/side/free-alpha ablation sweep completed with **101 / 101** cases OK.
 Positive single-factor deltas over v5 included:
@@ -518,7 +506,7 @@ Overlap audit:
 - Existing work already covered residual/stat-arb MR heavily in
   `17_stat_arb_mr_deep.*`, wall/popular/depth fair microstructure in
   `16_wall_mid_mm.*`, and broad MM/MR strategy controls in
-  `round5-mm-mr/19_mm_mr_framework.py`.
+  the historical MM/MR framework prototype.
 - Missing coverage was a uniform direct product rolling-anchor MR scan and a
   comparable group-index MR scan across all 50 products.
 
@@ -598,12 +586,10 @@ diagnostics by **+203,764**.
 ## Round 5 MM refinement, event schedule, and re-anchored hidden paths
 
 Scripts/output:
-`analysis/round5/market-making-v7/26_v7_mm_refinement.py`,
-`analysis/round5/market-making-v7/27_v7_mm_bundle_tests.py`,
+Historical v7 MM-refinement outputs are summarized here; retained re-anchor artifacts live in
 `analysis/round5/hidden-paths/36_reanchor_integration_sweep.py`,
 `analysis/round5/hidden-paths/37_reanchor_winner_bundles.py`,
-`analysis/round5/hidden-paths/reanchor_integration_summary.csv`,
-`analysis/round5/hidden-paths/reanchor_integration_product_day.csv`.
+`analysis/round5/hidden-paths/reanchor_integration_summary.csv`.
 
 MM refinement around v7 found the default full-size touch layer was already
 good, but a small set of quote-size changes was additive:
@@ -698,7 +684,7 @@ trained/fixed path was worse than a simple current-day bucket-0 anchor.
 
 ## Round 5 ROBOT_DISHES — signal1 vs v14 (confirmed integration)
 
-Alternate file `strategies/alt-strategies/signal1.py` (docstring “Strategy 1” vs v14
+Alternate file `strategies/round5/alt-strategies/signal1.py` (docstring “Strategy 1” vs v14
 “Strategy 2”) routes `ROBOT_DISHES` through **mid shock** logic (`|log mid
 return|>0.005`) with short hold and no normal MM on that product, instead of
 v14’s **re-anchored hidden-path** plus **reduce-only touch MM**.
@@ -707,7 +693,7 @@ Confirmed `prosperity4btx` Round 5 D2–D4 defaults:
 - v14 baseline **+1,370,720**; full `signal1.py` **+595,827** (portfolio-level
   `signal1` is not dominant vs v14 under the same harness).
 - Porting shock as an **end-of-run override** on v14
-  (`strategies/session/14-v14-robot-dishes-shock-endcap.py`) produced **+971,736**
+  (`strategies/round5/session/14-v14-robot-dishes-shock-endcap.py`) produced **+971,736**
   with **+254,393 / +174,334** on D2/D3 (single-sleeve conflict with re-anchor/MM).
 - Re-anchor entry edge only for `ROBOT_DISHES` at **65** or **100** vs **80**
   (`14-v14-robot-dishes-reanchor-edge-65.py`, `14-v14-robot-dishes-reanchor-edge-100.py`)

@@ -4,14 +4,17 @@ This branch is organized as a cleaned research workspace.
 
 ## How To Read It
 
-Start with the round folders in `archive/` for Rounds 1-4 and root `trader.py`
-plus `strategies/` for Round 5. Each round keeps the final model and enough
+Start with the round folders in `strategies/` for Rounds 1-5. Root `trader.py`
+remains the active Round 5 submission. Each round keeps the final model and enough
 nearby variants to show what was tested.
 
 Use `analysis/` for the research trail: notebooks, scanners, scripts, and small
 summary artifacts that explain why a strategy changed. Raw competition data and
 large backtest outputs are excluded from the GitHub version to keep the repo
 lightweight.
+
+Use `manual-challenge/` for the separate manual challenge notebooks, optimizers,
+and final recommendations.
 
 ## What Was Removed Or Left Untracked
 

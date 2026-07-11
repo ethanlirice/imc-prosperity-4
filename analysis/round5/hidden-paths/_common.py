@@ -98,7 +98,7 @@ PRODUCT_GROUPS = {
 PRODUCT_TO_GROUP = {p: g for g, ps in PRODUCT_GROUPS.items() for p in ps}
 ALL_PRODUCTS = sorted(PRODUCT_TO_GROUP.keys())
 
-# Free alpha table from analysis/round5/free-alpha/20_free_alpha_probe.py.
+# Free alpha table retained from the historical free-alpha probe.
 # Tuple is (base, d1, d2, d3, d4); fair_path = [base, base+d1, base+d2, base+d3, base+d4].
 FREE_ALPHA_TABLE = {
     "GALAXY_SOUNDS_BLACK_HOLES": (11193.8333, -68.0000, 241.3333, 36.3333, 1151.8333),

@@ -7,7 +7,7 @@ directly supported by findings in `DATA.md`.
 
 ## ROBOT_DISHES shock takeover — PROMOTED (this session)
 
-**Promoted file:** `strategies/session/14g-v14-dishes-shock-takeover-hold30.py`,
+**Promoted file:** `strategies/round5/session/14g-v14-dishes-shock-takeover-hold30.py`,
 copied to root `trader.py`.
 
 **What it does:** v14 with a `ROBOT_DISHES` shock module that takes over from
@@ -62,7 +62,7 @@ within typical D4 cluster gaps and never flattens. That ceiling matches the
 saturation = no v14 dishes contribution. HOLD=30 beats both extremes by ~+5k
 because it lets v14 logic capture residual edge in the post-cluster tail.
 
-**Rejected variants (kept under `strategies/session/14[a-f]*`):**
+**Rejected variants (kept under `strategies/round5/session/14[a-f]*`):**
 
 | File | Total | Why rejected |
 |------|-------|--------------|
@@ -80,14 +80,14 @@ because it lets v14 logic capture residual edge in the post-cluster tail.
 | `14-v14-robot-dishes-shock-endcap.py` | +971,736 | Endcap's `pos!=0 and not shock` flatten branch fired every tick re-anchor held inventory, destroying D2/D3 |
 | `14-v14-robot-dishes-reanchor-edge-65.py` | +1,367,880 | Tighter edge regressed vs baseline |
 | `14-v14-robot-dishes-reanchor-edge-100.py` | +1,343,188 | Wider edge regressed vs baseline |
-| `strategies/alt-strategies/signal1.py` | +595,827 | Full alt; non-DISHES sleeves much worse than v14's stack |
+| `strategies/round5/alt-strategies/signal1.py` | +595,827 | Full alt; non-DISHES sleeves much worse than v14's stack |
 
 ---
 
 ## Current promoted runtime
 
 **File:** `trader.py` (matches
-`strategies/session/14g-v14-dishes-shock-takeover-hold30.py`).
+`strategies/round5/session/14g-v14-dishes-shock-takeover-hold30.py`).
 **Status:** current active runtime.
 
 Backtests:
@@ -102,7 +102,7 @@ Naming convention:
 
 ## Rejected Round 5 NN cross-pressure candidate
 
-**File:** `strategies/round5/nn-cross-microchip-oval-v12-candidate.py`  
+**File:** `strategies/round5/session/nn-cross-microchip-oval-v12-candidate.py`  
 **Status:** rejected for primary promotion; keep as research-only.
 
 Built from v11 and added one active sleeve from the same-group cross-pressure
@@ -323,10 +323,8 @@ New tooling prepared for fast promotion testing:
     `ADD_FREE_ALPHA_PRODUCTS`, `DROP_FREE_ALPHA_PRODUCTS`,
     `DROP_MM_PRODUCTS`, `MM_BID_OFF_PRODUCTS`, `MM_ASK_OFF_PRODUCTS`,
     `MM_ONLY_PRODUCTS`, `FREE_ALPHA_EDGE_OVERRIDES`.
-- `analysis/round5/owner-side/22_owner_side_ablation.py`
-  - runs batched owner/side ablations and writes:
-    - `analysis/round5/owner-side/owner_side_ablation_summary.csv`
-    - `analysis/round5/owner-side/owner_side_ablation_product_day.csv`
+- Historical owner/side ablation runner
+  - ran batched owner/side ablations; conclusions are summarized in `DATA.md` and detailed generated files were pruned.
 
 Status: harness is ready; full sweep result is pending because the run was
 interrupted before completion.
