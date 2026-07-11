@@ -4,10 +4,6 @@ This repository is my cleaned workspace for IMC Prosperity 4. It keeps the code,
 data, analysis, strategy variants, and final models that show how I approached
 each round of the trading competition.
 
-The repo is intentionally not just a final-submission dump. The goal is to make
-the workflow easy to inspect: final strategies live beside the most relevant
-research notes, variants, and test results.
-
 ## Repository Map
 
 | Path | Purpose |
@@ -43,6 +39,3 @@ research notes, variants, and test results.
   strike-specific execution.
 - Round 5 group-level research, hidden-path re-anchoring, mean-reversion,
   passive market making, and NN-assisted candidate generation.
-
-Some round-level result fields are intentionally marked for confirmation because
-I prefer not to publish guessed performance numbers.
